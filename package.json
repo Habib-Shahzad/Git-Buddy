@@ -1,0 +1,36 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.3.1",
+    "pkg": "^5.8.1",
+    "ts-node": "^10.9.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "ora": "5.4.1",
+    "readline": "^1.3.0"
+  },
+  "name": "maq-git-buddy",
+  "version": "1.2.4",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts",
+    "build": "tsc -p ."
+  },
+  "bin": {
+    "git-buddy": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habib-maqsad/maq-git-helper.git"
+  },
+  "author": "Habib Shahzad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habib-maqsad/maq-git-helper/issues"
+  },
+  "homepage": "https://github.com/habib-maqsad/maq-git-helper#readme",
+  "description": ""
+}
