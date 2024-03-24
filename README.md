@@ -13,27 +13,27 @@ npm i -g shancy-git
   - `-e`: An optional emoji for the commit message.
   - `-t`: The type of the resulting commit. (Based on [Commit Types](#Commit-Types))
   - `--amend`: A flag indicating whether to amend the previous commit.
-  - Example: `npx git-buddy push -t feat -m "Added Feature" --amend`
-  - Example: `npx git-buddy push -t fix -m "Fixed Bug"`
+  - Example: `npx gitbuddy push -t feat -m "Added Feature" --amend`
+  - Example: `npx gitbuddy push -t fix -m "Fixed Bug"`
 - **Action: Commit only**
 
-  - Example: `npx git-buddy commit -t feat -m "Message"`
+  - Example: `npx gitbuddy commit -t feat -m "Message"`
 
 - **Action: squash (Combine commits)**
   - `n`: The number of commits to squash (default is 1).
-  - Example `npx git-buddy squash -n 4 -t feat -m "Squash Commits"`
+  - Example `npx gitbuddy squash -n 4 -t feat -m "Squash Commits"`
 - **Action: pull**
 
-  - Example: `npx git-buddy pull`
+  - Example: `npx gitbuddy pull`
 
 - **Action: push_origin**
 
   - `--f`: A flag indicating whether to force-push to the origin.
-  - Example: `npx git-buddy push_origin`
+  - Example: `npx gitbuddy push_origin`
 
 - **Action: reset (Completely Deleting commits from remote)**
   - `n`: The number of commits to reset (default is 1).
-  - Example: `npx git-buddy reset -n 5`
+  - Example: `npx gitbuddy reset -n 5`
 
 ## Commit-Types
 
