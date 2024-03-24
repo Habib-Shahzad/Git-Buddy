@@ -3,7 +3,7 @@
 ### Installation
 
 ```
-npm i -g git-buddy
+npm i -g shancy-git
 ```
 
 ### Features

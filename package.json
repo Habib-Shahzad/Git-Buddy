@@ -1,5 +1,37 @@
 {
+  "name": "shancy-git",
+  "version": "1.0.11",
+  "description": "A helpful utility for git",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "keywords": [
+    "github",
+    "clean commits",
+    "git",
+    "git utility"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup"
+  },
+  "bin": {
+    "gitbuddy": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habib-shahzad/shancy-git.git"
+  },
+  "author": "Habib Shahzad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habib-shahzad/shancy-git/issues"
+  },
+  "homepage": "https://github.com/habib-shahzad/shancy-git",
   "devDependencies": {
+    "@swc/core": "^1.4.8",
     "@types/node": "^20.3.1",
     "pkg": "^5.8.1",
     "ts-node": "^10.9.1",
@@ -10,27 +42,5 @@
     "chalk": "^4.0.0",
     "ora": "5.4.1",
     "readline": "^1.3.0"
-  },
-  "name": "maq-git-buddy",
-  "version": "1.2.4",
-  "main": "index.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "ts-node index.ts",
-    "build": "tsc -p ."
-  },
-  "bin": {
-    "git-buddy": "./dist/index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/habib-maqsad/maq-git-helper.git"
-  },
-  "author": "Habib Shahzad",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/habib-maqsad/maq-git-helper/issues"
-  },
-  "homepage": "https://github.com/habib-maqsad/maq-git-helper#readme",
-  "description": ""
+  }
 }
